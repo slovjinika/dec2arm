@@ -18,7 +18,7 @@ def dec2arm(input_number):
         quotient, input_number = divmod(input_number, divisor)
         if quotient > 0:
             if divisor == 10000:
-                result += symbols[quotient - 1] + "\u0305"  # Use overline for 10000 multiplier
+                result += symbols[quotient - 1] + "\u0304"  # Use overline for 10000 multiplier
             else:
                 result += symbols[quotient - 1]
 
