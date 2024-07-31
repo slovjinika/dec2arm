@@ -1,6 +1,6 @@
 import argparse
 
-def dec2armenian(input_number):
+def dec2arm(input_number):
     if not 1 <= input_number <= 29999:
         raise ValueError("The number must be between 1 and 29999")
 
@@ -32,7 +32,7 @@ def main():
     parser.add_argument("number", type=int, help="The number to convert")
 
     args = parser.parse_args()
-    result = dec2armenian(args.number)
+    result = dec2arm(args.number)
     print(result)
 
 # Corrected block
