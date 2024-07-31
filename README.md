@@ -6,11 +6,11 @@ This Python script converts decimal numbers to Armenian numerals.
 
 To use the script, simply run it from the command line with the number you want to convert as an argument:
 
-`python decimal_to_armenian.py <number>`
+`python dec2arm.py <number>`
 
 For example:
 
-`python decimal_to_armenian.py 1234`
+`python dec2arm.py 1234`
 
 This will output:
 
